@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,n,table;
+    scanf("%d",&n);
+   
+    
+    for(i = 10; i > 0; --i)
+    {
+        table = n*i;
+    
+        printf("%d\n",table);
+    }
+    return 0;
+}

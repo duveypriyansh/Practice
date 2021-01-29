@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,n,sum;
+    for(i = 0; i <11; i++)
+    {
+       
+        sum += 8 * i;
+       
+    }
+      printf("the sum is %d\n",sum);
+    
+    
+    return 0;
+}
